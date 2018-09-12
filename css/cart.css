@@ -1,0 +1,402 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: "Kaushan Script";
+    src: url("../data/KaushanScript-Regular.ttf");
+}
+h1{
+    font-family: "Kaushan Script";
+}
+#container{
+    width: 100%;
+    height: 100%;
+}
+.nav-list{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+.nav-list-top{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav-logo{
+    width: 25%;
+    height: 50px;
+    float: left;
+    margin: 0 20px;
+}
+.nav-logo .logo-img{
+    width: 25%;
+    float: left;
+}
+.nav-logo .logo-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 180px;
+}
+.nav-logo .logo-title{
+    margin: 10px 40px;
+}
+.nav-logo .logo-title p{
+    font-size: 20px;
+    font-weight:400;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.nav-ul{
+    width: 65%;
+    height: 50px;
+    margin: 0 20px;
+    float: left;
+
+}
+a{
+    text-decoration: none;
+}
+.nav-ul ul{
+    width: 100%;
+}
+.nav-ul ul li{
+    float: right;
+    margin: 10px 20px;
+    list-style: none;
+
+}
+.nav-ul ul li a{
+    color:rgba(255, 255, 255, 0.7);
+}
+header{
+
+    background-image: url("../img/img_bg_1.jpg");
+    width: 100%;
+    height:400px;
+}
+.body-center{
+    position: relative;
+    z-index: 100;
+    width: 100%;
+}
+#bg-header{
+    background-position:50% 0%;
+    background-size: cover;
+    position: fixed;
+    background-repeat: no-repeat;
+
+}
+
+#bg-header .overlay{
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.center-header{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 300px;
+}
+.row{
+    width: 100%;
+    position: absolute;
+    margin:70px 0 0 0;
+    padding: 0 15px 0 15px;
+
+}
+.header-left{
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    text-align: center;
+
+
+}
+.header-left span{
+    font-size: 14px;
+    color:rgba(255, 255, 255, 0.7);
+
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    display: block;
+}
+.header-left h1{
+
+    color: white;
+    margin-bottom: 0px;
+    font-size: 80px;
+    line-height: 1.5;
+    font-weight: 400;
+    /*font-family: "Kaushan Script", cursive !important;*/
+}
+
+.shop-body{
+    width: 100%;
+    height:720px;
+    background-color:white;
+}
+.list-nav{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.list-title{
+    width: 100%;
+    height:10%;
+    padding-top: 50px;
+    border-bottom:1px solid darkgrey;
+
+}
+.list-title li{
+    margin: 15px 0;
+}
+.list-title li:nth-child(1){
+     width: 20%;
+ }
+.list-title li:nth-child(2){
+    width: 20%;
+}
+.list-title li:nth-child(3){
+    width: 10%;
+}
+.list-title li:nth-child(4){
+    width: 10%;
+}
+.list-title li:nth-child(5){
+    width: 20%;
+}.list-title li:nth-child(6){
+    width: 20%;
+}
+
+li{
+    list-style: none;
+    float: left;
+
+}
+a{
+    text-decoration: none;
+}
+.list{
+    width: 100%;
+    height:80%;
+    position: relative;
+
+}
+.list li{
+    width: 100%;
+    height: 50px;
+    margin: 25px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid darkgrey;
+}
+.food-name,.food-img,.food-price,.food-num,.food-action,.food-require{
+    float: left;
+}
+p{
+    font-size: 18px;
+}
+.food-name{
+    width: 20%;
+}
+.food-img{
+    width: 20%;
+}
+.food-price{
+    width: 10%;
+}.food-num{
+    width: 10%;
+}.food-action{
+    width: 20%;
+}.food-require{
+    width: 20%;
+}
+ .food-action button{
+     width: 20px;
+     height: 20px;
+     background-color: #FBB448;
+     border: none;
+     border-radius: 5px;
+
+     font-size: 15px;
+ }
+ .food-require .fa-trash{
+  font-size: 20px;
+ }
+ .last{
+     width: 100%;
+     height: 20%;
+ }
+ .last li{
+     width: 100%;
+     height: 35px;
+     clear: both;
+     margin: 10px 0;
+ }
+ .last li div{
+     width: 200%;
+     height: 100%;
+ }
+.last li div p ,.last li div input{
+    float: left;
+}
+.last li button{
+   width: 100px;
+    height: 35px;
+    background-color: #FBB448;
+    border: none;
+
+}
+.last .money{
+    width: 50px;
+    height: 20px;
+}
+.last .address{
+    width: 150px;
+    height: 20px;
+}
+.last li:nth-child(3)
+{
+    text-align: center;
+}
+#changeAddress{
+    width: 35px;
+    height: 20px;
+}
+.place{
+    display: none;
+    width: 200px;
+    height:50%;
+}
+.food-img img{
+    width: 100px;
+    height:50px;
+    border-radius: 10px;
+}
+
+
+
+.dialog{
+    width: 350px;
+    height: 200px;
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    background-color:  #00bafa;
+    z-index: 1000;
+    display: block;
+    border: 1px solid white;
+}
+.message,.btn-delete{
+    height: 50%;
+    width: 100%;
+}
+
+.span-message{
+    position: relative;
+    top: 35%;
+    left: 15%;
+    font-size: 25px;
+    width: 80%;
+    height: 50px;
+    margin:40px 35px;
+    text-align: center;
+    color: white;
+}
+.yes,.no{
+    width: 100px;
+    height: 30px;
+    margin: 0 30px;
+    border: 1px solid white;
+    color: lightseagreen;
+    background-color: #d3f3fe;
+}
+.master{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.2;
+    z-index: 5;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#two{
+    width:130px;
+    height:100px;
+    position: absolute;
+    margin: 10px 0;
+    display: none;
+}
+#two:hover{
+    display: block;
+}
+#two li{
+    width: 100%;
+    height:50%;
+    margin: 0 !important;
+    padding-top: 10px;
+    border: 1px dotted gray;
+    position: relative;
+    float: left;
+    background-color: gray;
+    text-align: center;
+}
+#two li:hover{
+    background-color: #FBB448;
+}
+
+#cart-ul{
+    width:130px;
+    height:50px;
+    position: absolute;
+    margin: 10px 0;
+    display: none;
+}
+
+#cart-ul li{
+    width: 100%;
+    height:50%;
+    margin: 0 !important;
+    padding-top: 10px;
+    border: 1px dotted gray;
+    position: relative;
+    float: left;
+    background-color: gray;
+    text-align: center;
+}
+#cart-ul li:hover{
+    background-color: #FBB448;
+}
+#cart-ul li:hover a{
+    color: white !important;
+}
+#search{
+    width:200px;
+    height:25px;
+    margin-right: 10px;
+    border: 1px solid grey;
+    display: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: white !important;
+}
+

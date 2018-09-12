@@ -1,0 +1,121 @@
+body{
+    overflow-y: hidden;
+}
+header{
+
+    background-image: url("../img/guan_bg.jpg") !important;
+    height:750px !important;
+}
+.header-right{
+    position: absolute;
+    width: 500px;
+    height: 457px;
+    margin: 200px 10px;
+    border-top: 10px solid #FBB448;
+    left:33%;
+}
+.header-right .form-list{
+    width: 100%;
+    height: 100%;
+    clear: both;
+    background: rgba(0, 0, 0, 0.5);
+}
+.tab-inner{
+    position: relative;
+    top: 10%;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    color: white;
+}
+.tab-inner h3{
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+.tab-inner ul{
+    width: 100%;
+
+}
+.tab-inner ul li{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+.tab-inner ul li label{
+    width: 100%;
+    padding: 5px 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+.tab-inner ul li input{
+    width: 100%;
+    color: #fff !important;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    height: 42px;
+    border-radius: 3px;
+    background-color: transparent;
+}
+.tab-inner ul li .code{
+    position: relative;
+    width: 100%;
+}
+.tab-inner ul li button{
+    display: none;
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    color: #fff !important;
+    border: none;
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
+    height: 44px;
+    background-color: transparent;
+}
+
+.tab-inner ul li:nth-child(4) input{
+    background-color:#FBB448 !important;
+}
+#textCode{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    outline: none;
+
+    filter:alpha(opacity=0.5);
+    -moz-opacity:0.5;
+    opacity: 0.5;
+}
+
+.se2{
+
+    width: 50% !important;
+    position:absolute;
+    z-index: 1;
+    opacity: 0;
+}
+.se1{
+    width: 50% !important;
+    font-size:16px;
+    color:#fff;
+    background: #28abde;
+    border-radius:5px;
+    position:absolute;
+
+}
+.se1:hover {
+    cursor: pointer;
+}
+#foodImg{
+    width: 40%;
+    float: right;
+
+    position: relative;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    height: 80px;
+
+}
