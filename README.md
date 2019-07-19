@@ -26,14 +26,7 @@
 
 效果图
 -------
-![](https://github.com/18281578906/Power-food/blob/master/asset/home222.png)   
-![](https://github.com/18281578906/Power-food/blob/master/asset/cart222.png)   
-![](https://github.com/18281578906/Power-food/blob/master/asset/order222.png)   
-![](https://github.com/18281578906/Power-food/blob/master/asset/admint222.png)   
-![](https://github.com/18281578906/Power-food/blob/master/asset/search222.png)   
-![](https://github.com/18281578906/Power-food/blob/master/asset/report222.png)   
-![](https://github.com/18281578906/Power-food/blob/master/asset/shangchuan222.png)   
-![](https://github.com/18281578906/Power-food/blob/master/asset/baobiao222.png)   
+<img width="600"  src="https://github.com/18281578906/eat/blob/master/images/cart1.png"/> 
 
 
 开发环境：
