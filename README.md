@@ -26,7 +26,14 @@
 
 效果图
 -------
-<img width="600"  src="https://github.com/18281578906/eat/blob/master/images/cart1.png"/> 
+<img width="600"  src="https://github.com/18281578906/eat/blob/master/images/cart1.png"/>   
+<img width="600"  src="https://github.com/18281578906/eat/blob/master/images/cart2.png"/>  
+<img width="600"  src="https://github.com/18281578906/eat/blob/master/images/home.png"/>       
+<img width="600"  src="https://github.com/18281578906/eat/blob/master/images/home1.png"/>   
+<img width="600"  src="https://github.com/18281578906/eat/blob/master/images/home2.png"/>   
+<img width="600"  src="https://github.com/18281578906/eat/blob/master/images/home3.png"/>   
+<img width="600"  src="https://github.com/18281578906/eat/blob/master/images/guan.png"/>   
+<img width="600"  src="https://github.com/18281578906/eat/blob/master/images/guan2.png"/>   
 
 
 开发环境：
