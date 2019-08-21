@@ -1,4 +1,4 @@
-动力美食
+网上点餐网站
 ===
 账号admin、密码adminpass 进行登录的是管理员角色。
 
@@ -40,17 +40,6 @@
 -------
 ```html,css,javascript,jquery,bootstrap```
 
-所用api接口
-------
-
-
-服务器中位置  
-
-http://gzittc.net/powerfood/api
-
-#### 接口文档
-```
-···
 
 
 
